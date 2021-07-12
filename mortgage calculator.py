@@ -14,3 +14,4 @@ time = int(input())
 rate = int(input())/100
 monthlypayment = (rate*mortgage*(1+rate)**time)/((1+rate)**time-1)
 print("your monthly payment will be: " + str(int(monthlypayment)))
+print("done")
